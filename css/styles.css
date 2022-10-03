@@ -7,6 +7,7 @@
     --background-hero: #2F303A;
     --background-grup:#F5F4FA;
     --background-color-fon:#F5F5F5;
+    --color-button: #188CE8;
 }
 body{
         font-family: 'Roboto', sans-serif;
@@ -117,16 +118,16 @@ color: var(--headin-color);
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-   
+    
 }
 .button.order{
     color: var(--headin-color);
-    background-color: var(--background-hero);
-    cursor: pointer;
+    background: var(--accent-color);
+    border-color: var(--accent-color);
 }
 .button.order:hover,
 .button.order:focus {
-    background-color:var(--accent-color);
+    background-color:var(--color-button);
 }
 .hero, .footer{
     background: var(--background-hero);
@@ -217,6 +218,7 @@ color: var(--accent-color)
     border-radius: 4px;
     color: var(--primary-text-color);
     background-color: var(--background-grup);
+    border-color: var(--background-grup);
     cursor: pointer;
  }
  .button:hover,
